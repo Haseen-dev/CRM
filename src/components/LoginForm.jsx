@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './Form.css'
-import Form from "./Form";
+import Form from "./Form.jsx";
 function LoginForm() {
   const [form, setForm] = useState({
     email: "",
